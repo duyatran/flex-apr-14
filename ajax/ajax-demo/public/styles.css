@@ -1,0 +1,16 @@
+.food-item {
+    border: 2px solid magenta;
+    border-radius: 10px;
+    padding: 0px 20px;
+    margin-bottom: 20px;
+}
+
+.food-item header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.food-item footer {
+    display: flex;
+    justify-content: space-between;
+}

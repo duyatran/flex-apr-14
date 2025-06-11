@@ -5,11 +5,39 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.js" crossorigin="anonymous"
+    referrerpolicy="no-referrer"></script>
+
+  <script src="app.js" defer></script>
+
+  <link rel="stylesheet" href="styles.css">
+
   <title>Fun with AJAX</title>
 </head>
 
 <body>
-  <h2>Fun with AJAX</h2>
+  <h2>Food items!</h2>
+  <div>
+    <form id="new-food-item">
+      <label>Name</label>
+      <input name="name" />
+      <br />
+      <label>Tagline</label>
+      <input name="tagline" />
+      <br />
+      <label>Price</label>
+      <input name="price" />
+      <br />
+      <label>Calories</label>
+      <input name="calories" />
+      <br />
+      <button type="submit">Create</button>
+    </form>
+  </div>
+
+  <!-- Anchor container -->
+  <section id="container">
+  </section>
 
 </body>
 
